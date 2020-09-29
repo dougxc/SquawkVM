@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="generalFormatting" name="blockIndent" value="4"/>
+  <property category="generalFormatting" name="tabSize" value="4"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="&lt;None&gt;"/>
+  <property category="runtime.0" name="ConfigurationName" value="translate @j2me.classes"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="com.sun.squawk.translator.VirtualMachine"/>
+  <property category="runtime.0" name="application.parameters" value="-classpath j2me/classes -o catch @j2me.classes"/>
+  <property category="runtime.0" name="application.vmparameters" value="-Xbootclasspath/a:j2se\classes;j2me\classes;translator\classes"/>
+  <property category="runtime.0" name="test.harness" value="junit.textui.TestRunner"/>
+  <property category="serverservices" name="disabled.services" value="connector;jdatastore"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="CompileOnDebug" value="0"/>
+  <property category="sys" name="CompileOnRun" value="0"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2002"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="translator/src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="JDK" value="java version 1.4.1-b21"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="j2se;j2me"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="translator/classes"/>
+  <property category="sys" name="SourcePath" value="translator/src;j2se/src;j2me/src"/>
+  <property category="sys" name="TestPath" value="translator/src"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="com" type="Folder">
+    <node name="sun" type="Folder">
+      <node name="squawk" type="Folder">
+        <node name="translator" type="Folder">
+          <node name="ir" type="Folder">
+            <file path="translator/src/com/sun/squawk/translator/ir/ArithmeticOp.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/ArrayLength.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/BytecodeAddress.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Cast.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/CheckCast.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/CheckStore.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/ConvertOp.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Goto.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/HandlerEndPoint.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/HandlerEnter.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/HandlerExit.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/HandlerStartPoint.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/IfOp.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/InitializeClass.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/InstanceOf.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Instruction.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/InstructionVisitor.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Invoke.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/LoadException.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/LoadField.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/LoadIndexed.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/LoadLocal.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Local.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/LookupSwitch.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/MethodHeader.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/MonitorEnter.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/MonitorExit.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/NegateOp.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/NewArray.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/NewMultiArray.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/NewObject.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/ParameterVisitor.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Phi.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Return.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/StoreField.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/StoreIndexed.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/StoreLocal.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/TableSwitch.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Target.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/TemporaryLocal.java"/>
+            <file path="translator/src/com/sun/squawk/translator/ir/Throw.java"/>
+          </node>
+          <node name="loader" type="Folder">
+            <file path="translator/src/com/sun/squawk/translator/loader/AddressVector.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/BytecodeHolder.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/BytecodeInputStream.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/ClassFileInputStream.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/ClassFileLoader.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/ConstantPool.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/GraphBuilder.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/GraphOptimizer.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/GraphPrinter.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/InputContext.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/LimitInputStream.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/LinkageException.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/LocalVector.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/SpecialTransformer.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/StackMap.java"/>
+            <file path="translator/src/com/sun/squawk/translator/loader/TypeProxy.java"/>
+          </node>
+          <node name="util" type="Folder">
+            <file path="translator/src/com/sun/squawk/translator/util/ArrayHashtable.java"/>
+            <file path="translator/src/com/sun/squawk/translator/util/BaseFunctions.java"/>
+            <file path="translator/src/com/sun/squawk/translator/util/Comparer.java"/>
+            <file path="translator/src/com/sun/squawk/translator/util/QuickSorter.java"/>
+            <file path="translator/src/com/sun/squawk/translator/util/RuntimeConstants.java"/>
+          </node>
+          <node name="xml" type="Folder">
+            <file path="translator/src/com/sun/squawk/translator/xml/XMLGraphPrinter.java"/>
+          </node>
+          <file path="translator/src/com/sun/squawk/translator/ClassFileMethod.java"/>
+          <file path="translator/src/com/sun/squawk/translator/Field.java"/>
+          <file path="translator/src/com/sun/squawk/translator/IntermediateMethod.java"/>
+          <file path="translator/src/com/sun/squawk/translator/Member.java"/>
+          <file path="translator/src/com/sun/squawk/translator/Method.java"/>
+          <file path="translator/src/com/sun/squawk/translator/MethodProxy.java"/>
+          <file path="translator/src/com/sun/squawk/translator/MethodVector.java"/>
+          <file path="translator/src/com/sun/squawk/translator/Type.java"/>
+          <file path="translator/src/com/sun/squawk/translator/VirtualMachine.java"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</project>

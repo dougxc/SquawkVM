@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="sunlabs.brazil.server.Main"/>
+  <property category="runtime.0" name="application.parameters" value="-l 2 -port 9090 -handler com.sun.squawk.translator.BrazilHandler classpath j2me/classes;translator/classes"/>
+  <property category="runtime.0" name="application.vmparameters" value="-Xbootclasspath/p:c:\JBuilder6\jdk1.3.1\src.jar;c:\jbprojects\SquawkVM\j2se\brazil-1.1-min.jar;c:\jbprojects\SquawkVM\translator\classes;c:\jbprojects\SquawkVM\j2se\classes;c:\jbprojects\SquawkVM\j2me\classes"/>
+  <property category="runtime.0" name="test.harness" value="junit.textui.TestRunner"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="CompileOnDebug" value="0"/>
+  <property category="sys" name="CompileOnRun" value="0"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2002"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="j2se/src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="JDK" value="java 1.3.1-b24"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="j2se_rt;j2me;brazil"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="j2se/classes"/>
+  <property category="sys" name="SourcePath" value="j2se/src;define/src"/>
+  <property category="sys" name="TestPath" value="j2se/src"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="com" type="Folder">
+    <node name="sun" type="Folder">
+      <node name="squawk" type="Folder">
+        <node name="io" type="Folder">
+          <node name="j2se" type="Folder">
+            <node name="channel" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/channel/Protocol.java"/>
+            </node>
+            <node name="file" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/file/Protocol.java"/>
+            </node>
+            <node name="http" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/http/Protocol.java"/>
+            </node>
+            <node name="serversocket" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/serversocket/Protocol.java"/>
+            </node>
+            <node name="socket" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/socket/Protocol.java"/>
+            </node>
+            <node name="zip" type="Folder">
+              <file path="j2se/src/com/sun/squawk/io/j2se/zip/Protocol.java"/>
+            </node>
+            <file path="j2se/src/com/sun/squawk/io/j2se/UniversalFilterInputStream.java"/>
+            <file path="j2se/src/com/sun/squawk/io/j2se/UniversalFilterOutputStream.java"/>
+          </node>
+        </node>
+        <node name="traceviewer" type="Folder">
+          <file path="j2se/src/com/sun/squawk/traceviewer/TraceViewer.java"/>
+        </node>
+        <node name="translator" type="Folder">
+          <file path="j2se/src/com/sun/squawk/translator/BrazilHandler.java"/>
+        </node>
+        <node name="util" type="Folder">
+          <file path="j2se/src/com/sun/squawk/util/Find.java"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</project>

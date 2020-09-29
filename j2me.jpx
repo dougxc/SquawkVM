@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="javaFormatting" name="packageThreshold" value="0"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="java.lang.VMPlatform"/>
+  <property category="runtime.0" name="application.parameters" value="java.lang.Native"/>
+  <property category="runtime.0" name="application.vmparameters" value="-Xbootclasspath/a:j2se/classes;j2me/tmpclasses;vm/classes"/>
+  <property category="runtime.0" name="test.harness" value="junit.textui.TestRunner"/>
+  <property category="serverservices" name="disabled.services" value="connector;jdatastore"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="BeansInstantiate" value="false"/>
+  <property category="sys" name="BraceStyle" value="0"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="CompileOnDebug" value="0"/>
+  <property category="sys" name="CompileOnRun" value="0"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2002"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="define/src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="EventMatch" value="false"/>
+  <property category="sys" name="EventStyle" value="1"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="GenerateSourceToOutDir" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="0"/>
+  <property category="sys" name="JDK" value="java 1.3.1-b24"/>
+  <property category="sys" name="JvmVersion" value="1.3"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value=""/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="j2me/tmpclasses"/>
+  <property category="sys" name="SourcePath" value="define/src;j2me/src"/>
+  <property category="sys" name="TestPath" value="j2me/src"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="com" type="Folder">
+    <node name="sun" type="Folder">
+      <node name="cldc" type="Folder">
+        <node name="i18n" type="Folder">
+          <node name="j2me" type="Folder">
+            <file path="j2me/src/com/sun/cldc/i18n/j2me/ISO8859_1_Reader.java"/>
+            <file path="j2me/src/com/sun/cldc/i18n/j2me/ISO8859_1_Writer.java"/>
+          </node>
+          <node name="uclc" type="Folder">
+            <file path="j2me/src/com/sun/cldc/i18n/uclc/DefaultCaseConverter.java"/>
+          </node>
+          <file path="j2me/src/com/sun/cldc/i18n/Helper.java"/>
+          <file path="j2me/src/com/sun/cldc/i18n/StreamReader.java"/>
+          <file path="j2me/src/com/sun/cldc/i18n/StreamWriter.java"/>
+        </node>
+        <node name="io" type="Folder">
+          <node name="connections" type="Folder">
+            <file path="j2me/src/com/sun/cldc/io/connections/HttpConnection.java"/>
+          </node>
+          <file path="j2me/src/com/sun/cldc/io/DateParser.java"/>
+        </node>
+        <node name="util" type="Folder">
+          <node name="j2me" type="Folder">
+            <file path="j2me/src/com/sun/cldc/util/j2me/CalendarImpl.java"/>
+            <file path="j2me/src/com/sun/cldc/util/j2me/TimeZoneImpl.java"/>
+          </node>
+          <file path="j2me/src/com/sun/cldc/util/TimeZoneImplementation.java"/>
+        </node>
+      </node>
+      <node name="squawk" type="Folder">
+        <node name="io" type="Folder">
+          <node name="connections" type="Folder">
+            <file path="j2me/src/com/sun/squawk/io/connections/ClasspathConnection.java"/>
+          </node>
+          <node name="j2me" type="Folder">
+            <node name="channel" type="Folder">
+              <file path="j2me/src/com/sun/squawk/io/j2me/channel/ChannelInputStream.java"/>
+              <file path="j2me/src/com/sun/squawk/io/j2me/channel/ChannelOutputStream.java"/>
+              <file path="j2me/src/com/sun/squawk/io/j2me/channel/Protocol.java"/>
+            </node>
+            <node name="classpath" type="Folder">
+              <file path="j2me/src/com/sun/squawk/io/j2me/classpath/Protocol.java"/>
+            </node>
+            <node name="debug" type="Folder">
+              <file path="j2me/src/com/sun/squawk/io/j2me/debug/Protocol.java"/>
+            </node>
+            <node name="http" type="Folder">
+              <file path="j2me/src/com/sun/squawk/io/j2me/http/Protocol.java"/>
+            </node>
+          </node>
+          <file path="j2me/src/com/sun/squawk/io/ConnectionBase.java"/>
+        </node>
+        <node name="util" type="Folder">
+          <file path="j2me/src/com/sun/squawk/util/IntHashtable.java"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="java" type="Folder">
+    <node name="io" type="Folder">
+      <file path="j2me/src/java/io/ByteArrayInputStream.java"/>
+      <file path="j2me/src/java/io/ByteArrayOutputStream.java"/>
+      <file path="j2me/src/java/io/DataInput.java"/>
+      <file path="j2me/src/java/io/DataInputStream.java"/>
+      <file path="j2me/src/java/io/DataOutput.java"/>
+      <file path="j2me/src/java/io/DataOutputStream.java"/>
+      <file path="j2me/src/java/io/EOFException.java"/>
+      <file path="j2me/src/java/io/FileNotFoundException.java"/>
+      <file path="j2me/src/java/io/InputStream.java"/>
+      <file path="j2me/src/java/io/InputStreamReader.java"/>
+      <file path="j2me/src/java/io/InterruptedIOException.java"/>
+      <file path="j2me/src/java/io/IOException.java"/>
+      <file path="j2me/src/java/io/OutputStream.java"/>
+      <file path="j2me/src/java/io/OutputStreamWriter.java"/>
+      <file path="j2me/src/java/io/PrintStream.java"/>
+      <file path="j2me/src/java/io/Reader.java"/>
+      <file path="j2me/src/java/io/UnsupportedEncodingException.java"/>
+      <file path="j2me/src/java/io/UTFDataFormatException.java"/>
+      <file path="j2me/src/java/io/Writer.java"/>
+    </node>
+    <node name="lang" type="Folder">
+      <node name="isolate" type="Folder">
+        <file path="j2me/src/java/lang/isolate/Isolate.java"/>
+      </node>
+      <file path="j2me/src/java/lang/_boolean_.java"/>
+      <file path="j2me/src/java/lang/_byte_.java"/>
+      <file path="j2me/src/java/lang/_char_.java"/>
+      <file path="j2me/src/java/lang/_double_.java"/>
+      <file path="j2me/src/java/lang/_float_.java"/>
+      <file path="j2me/src/java/lang/_global_.java"/>
+      <file path="j2me/src/java/lang/_int_.java"/>
+      <file path="j2me/src/java/lang/_local_.java"/>
+      <file path="j2me/src/java/lang/_long_.java"/>
+      <file path="j2me/src/java/lang/_primitive_.java"/>
+      <file path="j2me/src/java/lang/_short_.java"/>
+      <file path="j2me/src/java/lang/_void_.java"/>
+      <file path="j2me/src/java/lang/ArithmeticException.java"/>
+      <file path="j2me/src/java/lang/ArrayIndexOutOfBoundsException.java"/>
+      <file path="j2me/src/java/lang/ArrayStoreException.java"/>
+      <file path="j2me/src/java/lang/Boolean.java"/>
+      <file path="j2me/src/java/lang/Byte.java"/>
+      <file path="j2me/src/java/lang/Character.java"/>
+      <file path="j2me/src/java/lang/Class.java"/>
+      <file path="j2me/src/java/lang/ClassBase.java"/>
+      <file path="j2me/src/java/lang/ClassCastException.java"/>
+      <file path="j2me/src/java/lang/ClassNotFoundException.java"/>
+      <file path="j2me/src/java/lang/Disassembler.java"/>
+      <file path="j2me/src/java/lang/Double.java"/>
+      <file path="j2me/src/java/lang/Error.java"/>
+      <file path="j2me/src/java/lang/Exception.java"/>
+      <file path="j2me/src/java/lang/ExceptionInInitializerError.java"/>
+      <file path="j2me/src/java/lang/ExitVMError.java"/>
+      <file path="j2me/src/java/lang/Float.java"/>
+      <file path="j2me/src/java/lang/FloatingDecimal.java"/>
+      <file path="j2me/src/java/lang/IllegalAccessException.java"/>
+      <file path="j2me/src/java/lang/IllegalArgumentException.java"/>
+      <file path="j2me/src/java/lang/IllegalMonitorStateException.java"/>
+      <file path="j2me/src/java/lang/IllegalStateException.java"/>
+      <file path="j2me/src/java/lang/IllegalThreadStateException.java"/>
+      <file path="j2me/src/java/lang/IndexOutOfBoundsException.java"/>
+      <file path="j2me/src/java/lang/InstantiationException.java"/>
+      <file path="j2me/src/java/lang/Integer.java"/>
+      <file path="j2me/src/java/lang/InterruptedException.java"/>
+      <file path="j2me/src/java/lang/Isolate.java"/>
+      <file path="j2me/src/java/lang/JavaApplicationManager.java"/>
+      <file path="j2me/src/java/lang/LinkageError.java"/>
+      <file path="j2me/src/java/lang/Long.java"/>
+      <file path="j2me/src/java/lang/Math.java"/>
+      <file path="j2me/src/java/lang/Native.java"/>
+      <file path="j2me/src/java/lang/NativeOpcodes.java"/>
+      <file path="j2me/src/java/lang/NegativeArraySizeException.java"/>
+      <file path="j2me/src/java/lang/NoClassDefFoundError.java"/>
+      <file path="j2me/src/java/lang/NullPointerException.java"/>
+      <file path="j2me/src/java/lang/NumberFormatException.java"/>
+      <file path="j2me/src/java/lang/Object.java"/>
+      <file path="j2me/src/java/lang/OutOfMemoryError.java"/>
+      <file path="j2me/src/java/lang/Runnable.java"/>
+      <file path="j2me/src/java/lang/Runtime.java"/>
+      <file path="j2me/src/java/lang/RuntimeException.java"/>
+      <file path="j2me/src/java/lang/SecurityException.java"/>
+      <file path="j2me/src/java/lang/Short.java"/>
+      <file path="j2me/src/java/lang/SquawkClassFormatError.java"/>
+      <file path="j2me/src/java/lang/SquawkClassLoader.java"/>
+      <file path="j2me/src/java/lang/SquawkFileParser.java"/>
+      <file path="j2me/src/java/lang/SquawkTags.java"/>
+      <file path="j2me/src/java/lang/String.java"/>
+      <file path="j2me/src/java/lang/StringBuffer.java"/>
+      <file path="j2me/src/java/lang/StringIndexOutOfBoundsException.java"/>
+      <file path="j2me/src/java/lang/SymbolTable.java"/>
+      <file path="j2me/src/java/lang/System.java"/>
+      <file path="j2me/src/java/lang/Test.java"/>
+      <file path="j2me/src/java/lang/Thread.java"/>
+      <file path="j2me/src/java/lang/Throwable.java"/>
+      <file path="j2me/src/java/lang/VirtualMachineError.java"/>
+      <file path="j2me/src/java/lang/VMPlatform.java"/>
+    </node>
+    <node name="util" type="Folder">
+      <file path="j2me/src/java/util/Calendar.java"/>
+      <file path="j2me/src/java/util/Date.java"/>
+      <file path="j2me/src/java/util/EmptyStackException.java"/>
+      <file path="j2me/src/java/util/Enumeration.java"/>
+      <file path="j2me/src/java/util/Hashtable.java"/>
+      <file path="j2me/src/java/util/NoSuchElementException.java"/>
+      <file path="j2me/src/java/util/NoSyncHashtable.java"/>
+      <file path="j2me/src/java/util/Random.java"/>
+      <file path="j2me/src/java/util/Stack.java"/>
+      <file path="j2me/src/java/util/StringTokenizer.java"/>
+      <file path="j2me/src/java/util/Timer.java"/>
+      <file path="j2me/src/java/util/TimerTask.java"/>
+      <file path="j2me/src/java/util/TimeZone.java"/>
+      <file path="j2me/src/java/util/Vector.java"/>
+    </node>
+  </node>
+  <node name="javax" type="Folder">
+    <node name="microedition" type="Folder">
+      <node name="io" type="Folder">
+        <file path="j2me/src/javax/microedition/io/Connection.java"/>
+        <file path="j2me/src/javax/microedition/io/ConnectionNotFoundException.java"/>
+        <file path="j2me/src/javax/microedition/io/Connector.java"/>
+        <file path="j2me/src/javax/microedition/io/ContentConnection.java"/>
+        <file path="j2me/src/javax/microedition/io/Datagram.java"/>
+        <file path="j2me/src/javax/microedition/io/DatagramConnection.java"/>
+        <file path="j2me/src/javax/microedition/io/InputConnection.java"/>
+        <file path="j2me/src/javax/microedition/io/OutputConnection.java"/>
+        <file path="j2me/src/javax/microedition/io/StreamConnection.java"/>
+        <file path="j2me/src/javax/microedition/io/StreamConnectionNotifier.java"/>
+      </node>
+    </node>
+  </node>
+  <file path="j2me/src/test.java"/>
+</project>
